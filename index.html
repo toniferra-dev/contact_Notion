@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Gratis para ONG</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="flex items-center justify-center min-h-screen bg-gray-50 p-4">
+        <main
+            class="page bg-white shadow-xl rounded-lg overflow-hidden max-w-4xl w-full md:flex"
+        >
+            <section class="page__content p-6 md:p-8 lg:p-10 md:w-1/2">
+                <header class="logo mb-6">
+                    <a href="#" title="Inicio">
+                        <svg
+                            class="h-10 w-auto text-orange-500"
+                            viewBox="0 0 100 40"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect width="40" height="40" rx="8" />
+                            <rect x="50" width="50" height="40" rx="8" />
+                            <circle cx="20" cy="20" r="10" fill="white" />
+                            <path
+                                d="M 60 10 H 90 V 15 H 60 Z M 60 25 H 90 V 30 H 60 Z"
+                                fill="white"
+                            />
+                        </svg>
+                    </a>
+                </header>
+
+                <h1
+                    class="headline text-2xl md:text-3xl font-bold text-gray-800 mb-4"
+                >
+                    Web GRATIS para ONG's
+                </h1>
+                <h3>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        Creemos que las ONG's deben centrarse en su misión
+                        principal: ayudar a quienes más lo necesitan. Por eso,
+                        ofrecemos servicios de diseño web gratuitos para
+                        organizaciones sin fines de lucro.
+                        <b
+                            >Permítenos encargarnos de tu presencia en línea
+                            para que puedas dedicarte por completo a generar un
+                            impacto positivo en el mundo.</b
+                        >
+                    </p>
+                </h3>
+
+                <form
+                    class="form mt-6"
+                    id="inscripcionForm"
+                    aria-labelledby="form-title"
+                >
+                    <h2
+                        id="form-title"
+                        class="form__title text-lg font-semibold text-gray-700 mb-4"
+                    >
+                        Lista de Inscripción
+                    </h2>
+
+                    <div class="form__group mb-4">
+                        <label
+                            for="nombre"
+                            class="form__label block text-sm font-medium text-gray-600 mb-1"
+                            >Nombre</label
+                        >
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Tu nombre"
+                            required
+                            aria-required="true"
+                            class="form__input w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-offset-0 focus:ring-orange-500 focus:border-orange-500 transition duration-150 ease-in-out outline-none"
+                        />
+                    </div>
+
+                    <div class="form__group mb-5">
+                        <label
+                            for="email"
+                            class="form__label block text-sm font-medium text-gray-600 mb-1"
+                            >Email <span class="text-red-500">*</span></label
+                        >
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="tu@email.com"
+                            required
+                            aria-required="true"
+                            class="form__input w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-offset-0 focus:ring-orange-500 focus:border-orange-500 transition duration-150 ease-in-out outline-none"
+                        />
+                    </div>
+
+                    <div class="form__group mb-4">
+                        <button
+                            type="submit"
+                            class="form__button w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-2.5 px-4 rounded-md transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                        >
+                            Enviar
+                        </button>
+                    </div>
+
+                    <p class="form__privacy text-xs text-gray-500 text-center">
+                        Respetamos tu privacidad. Tus datos se usarán únicamente
+                        para contactarte sobre nuestros servicios y no serán
+                        compartidos con terceros. Puedes darte de baja en
+                        cualquier momento.
+                    </p>
+                </form>
+            </section>
+            <aside
+                class="page__image-container md:w-1/2 bg-gray-100 flex items-center justify-center p-6 md:p-0"
+            >
+                <figure class="w-full h-full m-0">
+                    <picture class="w-full h-full block">
+                        <source
+                            srcset="
+                                https://images.unsplash.com/photo-1507427100689-2bf8574e32d4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                            "
+                            media="(min-width: 1024px)"
+                            type="image/webp"
+                        />
+                        <source
+                            srcset="
+                                https://images.unsplash.com/photo-1507427100689-2bf8574e32d4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                            "
+                            media="(min-width: 768px)"
+                            type="image/webp"
+                        />
+                        <source
+                            srcset="
+                                https://images.unsplash.com/photo-1507427100689-2bf8574e32d4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                            "
+                            type="image/webp"
+                        />
+
+                        <img
+                            src="https://images.unsplash.com/photo-1507427100689-2bf8574e32d4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DG"
+                            alt="Personas colaborando en una ONG"
+                            class="w-full h-full object-cover rounded-r-lg md:rounded-r-lg md:rounded-l-none"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x400/CCCCCC/FFFFFF?text=Error+Cargando+Imagen';"
+                        />
+                    </picture>
+                </figure>
+            </aside>
+        </main>
+        <script>
+            // Script para manejar el envío del formulario
+            const form = document.getElementById("inscripcionForm");
+
+            form.addEventListener("submit", function (event) {
+                event.preventDefault(); // Previene el envío normal del formulario
+
+                const nombre = document.getElementById("nombre").value;
+                const email = document.getElementById("email").value;
+
+                console.log("Intentando enviar datos:");
+                console.log("Nombre:", nombre);
+                console.log("Email:", email);
+
+                // --- Lógica para enviar los datos a tu servidor backend (/api/subscribe) ---
+
+                fetch("/api/subscribe", {
+                    // Apunta a la ruta en tu servidor backend
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ nombre, email }), // Envía los datos como JSON
+                })
+                    .then((response) => {
+                        // Verifica si la respuesta es exitosa (código 2xx)
+                        if (!response.ok) {
+                            // Si no es exitosa, lanza un error con la respuesta para manejarlo en el catch
+                            return response.json().then((errorData) => {
+                                throw new Error(
+                                    errorData.message ||
+                                        "Error en la respuesta del servidor."
+                                );
+                            });
+                        }
+                        return response.json(); // Parsea la respuesta JSON
+                    })
+                    .then((data) => {
+                        console.log("Success:", data);
+                        // Muestra mensaje de éxito basado en la respuesta del backend
+                        alert(data.message || "¡Gracias por inscribirte!");
+                        form.reset(); // Limpia el formulario si fue exitoso
+                    })
+                    .catch((error) => {
+                        console.error("Error en el fetch:", error);
+                        // Muestra un mensaje de error
+                        alert(
+                            "Hubo un error al enviar tu inscripción. " +
+                                error.message
+                        );
+                    });
+
+                // --- Fin de la lógica de envío ---
+            });
+        </script>
+    </body>
+</html>
