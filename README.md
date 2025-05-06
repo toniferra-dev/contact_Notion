@@ -1,4 +1,4 @@
-# Web Gratis para ONG - Formulario de Inscripción con Integración a Notion
+# Formulario de Inscripción con Integración a Notion
 
 Este proyecto consiste en una página web sencilla para que las ONG puedan inscribirse y solicitar servicios web gratuitos. Los datos del formulario (nombre y email) se envían a una base de datos de Notion.
 
