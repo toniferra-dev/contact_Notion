@@ -59,10 +59,10 @@ Antes de ejecutar este proyecto, asegúrate de tener lo siguiente instalado:
     *   En el archivo `server.js`, busca la siguiente línea:
 
         ```javascript
-        const DATABASE_ID = '1ea698de62cd80519bdce96041741bea'; // Reemplaza con tu ID
+        const DATABASE_ID = '765675675765675765675765'; // Reemplaza con tu ID
         ```
 
-        Reemplaza `'1ea698de62cd80519bdce96041741bea'` con el ID de tu base de datos de Notion.
+        Reemplaza `'765675675765675765675765'` con el ID de tu base de datos de Notion.
 
         **¿Cómo obtener el ID de la base de datos de Notion?**
 
