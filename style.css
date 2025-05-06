@@ -1,0 +1,15 @@
+/* Definición de variables CSS globales */
+:root {
+    --color-primary: #f97316; /* Equivalente a orange-500 de Tailwind */
+    --color-primary-dark: #ea580c; /* Equivalente a orange-600 de Tailwind */
+    --color-secondary: #4b5563; /* Equivalente a gray-600 de Tailwind */
+    --color-text-base: #1f2937; /* Equivalente a gray-800 de Tailwind */
+    --color-text-muted: #6b7280; /* Equivalente a gray-500 de Tailwind */
+    --color-background: #ffffff; /* Equivalente a white de Tailwind */
+    --color-surface: #f3f4f6; /* Equivalente a gray-100 de Tailwind */
+}
+
+/* Aplicar fuente base al cuerpo del documento */
+body {
+    font-family: "Inter", sans-serif;
+}
