@@ -99,3 +99,16 @@ Antes de ejecutar este proyecto, asegúrate de tener lo siguiente instalado:
 3.  Si todo está configurado correctamente, verás un mensaje de éxito y una nueva página se creará en tu base de datos de Notion con los datos del formulario.
 
 ## Estructura del Proyecto
+
+## Dependencias
+
+*   `dotenv`: Para cargar las variables de entorno desde el archivo `.env`.
+*   `express`: Para crear el servidor backend.
+
+## Notas Adicionales
+
+*   Este es un proyecto básico para ilustrar la integración entre un formulario web y la API de Notion.
+*   Puedes personalizar el formulario, la lógica de envío de datos y la estructura de la base de datos de Notion según tus necesidades.
+*   Asegúrate de proteger tu clave de la API de Notion y no compartirla públicamente.
+*   Considera agregar validación de datos más robusta tanto en el frontend como en el backend.
+*   Para un despliegue en producción, considera usar un servicio de hosting como Netlify, Vercel o Heroku.
